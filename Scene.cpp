@@ -7,7 +7,7 @@
 Scene::Scene( QWidget *parent ) :
     QOpenGLWidget( parent ),
     m_scale( 1.0f ),
-    m_xRot( 0.0f ),
+    m_xRot( 20.0f ),
     m_zRot( 0.0f )
 {
     this->setFocusPolicy( Qt::StrongFocus );
